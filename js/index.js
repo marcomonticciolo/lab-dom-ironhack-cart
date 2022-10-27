@@ -43,7 +43,7 @@ function removeProduct(event) {
 
  target.parentElement.parentElement.remove()
 
-  calculateAll
+  calculateAll()
 
 }
 
@@ -66,7 +66,6 @@ console.log(newProduct);
 
  removeButton.addEventListener('click',removeProduct )
 
- 
 
 }
 
